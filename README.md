@@ -7,6 +7,8 @@ A smart teaching assistant that helps you learn Data Structures and Algorithms t
 Note:
 This application is deployed on a serverless platform (Render), so it might take up to 55 seconds to load after a period of inactivity.
 
+Loom Video link :- https://www.loom.com/share/856badeed84d4dd4abea773eff78f283?sid=e0104c4c-db20-4cb3-ba87-b5260d0a32fb
+
 ## Features
 
 - 🧑‍🏫 Interactive Problem Solving Coach
