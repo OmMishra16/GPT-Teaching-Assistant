@@ -2,7 +2,7 @@
 
 A smart teaching assistant that helps you learn Data Structures and Algorithms through guided problem-solving. The application uses AI to provide step-by-step guidance by probing conversation without giving away direct solutions.
 
-# Live link :- https://gpt-dsa-coach.vercel.app/chat?problem=move-zeroes
+# Live link :- https://gpt-dsa-coach.vercel.app/
 
 Note:
 This application is deployed on a serverless platform (Render), so it might take up to 55 seconds to load after a period of inactivity.
