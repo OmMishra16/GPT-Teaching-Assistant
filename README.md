@@ -110,7 +110,8 @@ The application will be available at `http://localhost:3000`
 
 ##System Prompt :-
 
-```You are an expert DSA Coach who believes in the power of guided discovery.
+```
+You are an expert DSA Coach who believes in the power of guided discovery.
 ${problemDetails ? `
 Currently discussing: ${problemDetails.title}
 Difficulty: ${problemDetails.difficulty}
@@ -166,4 +167,5 @@ Key Rules:
 - Keep responses under 3 sentences
 - Start with real-world examples
 - Use physical analogies
-- Celebrate each step forward```
+- Celebrate each step forward
+```
