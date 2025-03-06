@@ -1,0 +1,73 @@
+@import '../../styles/variables.css';
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--neutral-50);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid var(--neutral-200);
+  border-top: 5px solid var(--primary-600);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--space-md);
+}
+
+.loading-container p {
+  color: var(--neutral-600);
+  font-size: 1rem;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: var(--space-lg);
+  text-align: center;
+  background-color: var(--neutral-50);
+}
+
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-md);
+  color: var(--error);
+}
+
+.error-container h2 {
+  color: var(--neutral-900);
+  margin-bottom: var(--space-md);
+}
+
+.error-container p {
+  color: var(--neutral-600);
+  margin-bottom: var(--space-lg);
+  max-width: 500px;
+}
+
+.back-button {
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--primary-600);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: var(--primary-700);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
