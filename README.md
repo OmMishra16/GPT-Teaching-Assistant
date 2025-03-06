@@ -43,28 +43,36 @@ Loom Video link :- https://www.loom.com/share/856badeed84d4dd4abea773eff78f283?s
 
 1. Clone the repository
 bash:
+```
 git clone <repository-url>
 cd dsa-teaching-assistant
+```
 
 
 2. Install Backend Dependencies
 bash:
+```
 cd backend
 npm install
+```
 
-3. Install Frontend Dependencies
+4. Install Frontend Dependencies
 bash:
+```
 cd frontend
 npm install
+```
 
 
-4. Set up environment variables
+6. Set up environment variables
 
 Create a `.env` file in the backend directory:
 env:
+```
 PORT=3001
 MONGODB_URI=mongodb://localhost:27017/dsa-coach
 OPENAI_API_KEY=your_openai_api_key
+```
 
 ### Running the Application
 
